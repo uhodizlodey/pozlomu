@@ -1,0 +1,40 @@
+## Easy 2
+# a = 10
+# b = 20.9
+# c = int(input('Write a number: '))
+#
+# # print('Entered number plus 2: ', c + 2)
+
+## Easy 3
+# age = int(input('How old are you: '))
+#  if age >= 18:
+#      print('Enter please')
+#  else:
+#      print('Sorry, not allowed')
+
+## Normal 1
+# a = int(input('please, enter a number: '))
+# while a <= 0 or a >= 10:
+#     print('sorry, wrong number. it should be between 0 and 10. try again.')
+#     a = int(input('please, enter a number: '))
+# else:
+#     a = a ** 2
+#     print('a**2= ', a)
+
+## Normal 2
+# a = int(input('a = '))
+# b = int(input('b = '))
+# a, b = b, a
+# print('Switched! a =', a, 'b =', b)
+
+## Hard 1
+# name = input('Name: ')
+# surname = input('Surname: ')
+# age = int(input('Age: '))
+# weight = float(input('Weight: '))
+# if age <= 100 and (50 <= weight <= 120):
+#     print(name, surname, age, weight, 'State: Good')
+# elif 30 <= age <= 40 and (50 > weight > 120):
+#     print(name, surname, age, weight, 'State: You should watch yourself')
+# else:
+#     print(name, surname, age, weight, 'State: You need a doctor!')
